@@ -30,6 +30,9 @@ ro.camera.temperature.limit=450
 
 # Charger
 ro.charger.enable_suspend=true
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
     
 # CNE/DPM
 persist.vendor.cne.feature=1
