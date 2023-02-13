@@ -77,14 +77,12 @@ BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom
 BOARD_KERNEL_CMDLINE := androidboot.console=ttyMSM0
 BOARD_KERNEL_CMDLINE := lpm_levels.sleep_disabled=1
-BOARD_KERNEL_CMDLINE := cgroup.memory=nokmem,nosocket
 BOARD_KERNEL_CMDLINE := msm_rtb.filter=0x237
 BOARD_KERNEL_CMDLINE := service_locator.enable=1
 BOARD_KERNEL_CMDLINE := swiotlb=1
 BOARD_KERNEL_CMDLINE := earlycon=msm_geni_serial,0x4a90000
 BOARD_KERNEL_CMDLINE := loop.max_part=7
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
-BOARD_KERNEL_CMDLINE += kpti=off
 
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
